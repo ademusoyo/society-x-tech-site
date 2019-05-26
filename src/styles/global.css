@@ -1,0 +1,71 @@
+.navbar-item{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #FFFFFF !important;
+    font-weight: 400;
+}
+
+.navbar-item:hover{
+    background-color: #6C6E3C !important;
+    text-decoration: underline;
+    text-decoration-color: #DB995A
+}
+
+.field{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.control{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#subscribe-button{
+    background-color: #DB995A;
+}
+
+.subscribed{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.footer{
+    background-color: #6C6E3C !important;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h4{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#tag{
+    color:#4F345A !important;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#title{
+    color: black;
+}
+
+a{
+    color: #DB995A !important;
+    font-weight: bold;
+}
+
+.navbar-burger{
+    color: white !important;
+    margin-right: 40px;
+}
+
+.navbar-menu {
+    background-color: #6C6E3C !important;
+}

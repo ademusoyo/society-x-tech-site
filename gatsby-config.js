@@ -58,6 +58,12 @@ module.exports = {
               destinationDir: 'static',
             },
           },
+          {
+            resolve: 'gatsby-plugin-mailchimp',
+            options: {
+                endpoint: 'https://societyxtech.us19.list-manage.com/subscribe/post?u=96494ecbd121cdd5e878df186&amp;id=bf7153de98', // add your MC list endpoint here; see instructions below
+            },
+          }
         ],
       },
     },

@@ -16,9 +16,7 @@ export const IndexPageTemplate = ({
     <div
       className="full-width-image margin-top-0"
       style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
+        backgroundImage: `url('/img/hero.png')`,
       }}
     >
       <div
@@ -41,7 +39,7 @@ export const IndexPageTemplate = ({
             textAlign: 'center'
           }}
         >
-          {title}
+          Society x Tech
         </h1>
         <p
           className="is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
@@ -54,7 +52,7 @@ export const IndexPageTemplate = ({
             width: "80%"
           }}
         >
-          {subheading}
+          A monthly newsletter discussing the societal implications of technology trends through a hand-picked curation of articles, podcasts, books and interviews.
         </p>
         <ContactForm />
       </div>
@@ -94,15 +92,15 @@ IndexPageTemplate.propTypes = {
 }
 
 const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+  //const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
       <IndexPageTemplate
-        image={frontmatter.image}
-        title={frontmatter.title}
-        heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
+        // image={frontmatter.image}
+        // title={frontmatter.title}
+        // heading={frontmatter.heading}
+        // subheading={frontmatter.subheading}
       />
     </Layout>
   )

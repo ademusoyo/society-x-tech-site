@@ -42,4 +42,4 @@ Go for it!  Sometimes I build apps just to challenge myself and prove that I can
 
 
 
-Thank you Bukola for letting me feature you! If you're interested in connecting with her. You can follow her on Instagram [@theappqueen](https://www.instagram.com/theappqueen/)
+*Thank you Bukola for letting me feature you! If you're interested in connecting with her. You can follow her on Instagram [@theappqueen](https://www.instagram.com/theappqueen/). If you would like to be featured, please fill out this form [here.](https://docs.google.com/forms/d/e/1FAIpQLScLkKF6cnloKU8q8fElsCOww6Xna-pLZn_xJwV74EeQM-Rq4g/viewform)*

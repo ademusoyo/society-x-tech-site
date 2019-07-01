@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: 'Q & A with Bukola: Mobile first or Web First?'
-date: 2019-07-01T01:58:41.129Z
+date: 2019-06-30T16:58:41.129Z
 description: >-
   An interview with Bukola Akinfaderin discussing her thoughts on whether you
   should build a mobile application or a web application first.

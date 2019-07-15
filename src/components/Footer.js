@@ -56,6 +56,17 @@ const Footer = class extends React.Component {
                         Blog
                       </Link>
                     </li>
+                    <li>
+                    <a
+                      className="navbar-item"
+                      style={{paddingTop: ".5em"}}
+                      href="https://mailchi.mp/02da2a5b2d98/societyxtech"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >
+                      Subscribe
+                    </a>
+                    </li>
                   </ul>
                 </section>
               </div>

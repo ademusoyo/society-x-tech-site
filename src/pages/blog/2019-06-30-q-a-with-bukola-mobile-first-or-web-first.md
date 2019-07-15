@@ -5,11 +5,14 @@ date: 2019-06-30T16:58:41.129Z
 description: >-
   An interview with Bukola Akinfaderin discussing her thoughts on whether you
   should build a mobile application or a web application first.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/bukola.jpg
 tags:
   - web mobile application code develop
 ---
+
+![Bukola](/img/bukola.jpg)
+
 _For this month we're featuring_ [_Bukola Akinfaderin_](https://www.linkedin.com/in/bakinfaderin/)_. Bukola graduated with a Computer Science degree from Wesleyan University and a Masters in Information Systems from New Jersey Institute of Technology (NJIT). She has building web applications since 2009 and her first mobile app was Jandus Radio, a mobile application that aggregated over 250 radio stations across the Africa continent. I asked her about her new app_ [_Afrocast_](https://apps.apple.com/us/app/afrocast/id1463897539) _thoughts on whether to build a mobile or web application first. Read now!_
 
 ### What is Afrocast? Why did you decide to build it?

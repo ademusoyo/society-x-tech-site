@@ -34,52 +34,18 @@ export default class ContactForm extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <form
-                name="contact"
-                method="post"
-                data-netlify="true"
-                data-netlify-honeypot="bot-field"
-                onSubmit={this.handleSubmit}
-              >
-                {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-                <input type="hidden" name="form-name" value="contact" />
-                <div hidden>
-                  <label>
-                    Don’t fill this out:{' '}
-                    <input name="bot-field" onChange={this.handleChange} />
-                  </label>
-                </div>
                 <div className="field">
                   <label className="label" htmlFor={'email'} style={{fontSize: "25px", color: "white"}}>
                     Join the Conversation!
                   </label>
-                  <div className="control">
-                    <input
-                      className="input"
-                      type={'email'}
-                      name={'email'}
-                      onChange={this.handleChange}
-                      id={'email'}
-                      required={true}
-                      placeholder="Email Address"
-                      style={{textAlign: "center", color: "black"}}
-                    />
-                  </div>
                 </div>
                 <div className="field">
-                  <button  id="subscribe-button" className="button is-link">
-                    Subscribe
-                  </button>
+                  <a href="https://mailchi.mp/02da2a5b2d98/societyxtech" target="_blank">
+                    <button  id="subscribe-button" className="button is-link">
+                      Subscribe
+                    </button>
+                  </a>
                 </div>
-                {
-                    this.state.showSubscribe &&
-                    <div className="subscribed">
-                          Subscribed!
-                    </div>
-                }
-
-           
-              </form>
             </div>
           </div>
         </section>

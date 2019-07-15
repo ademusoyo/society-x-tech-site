@@ -72,6 +72,15 @@ const Navbar = class extends React.Component {
               <Link to="/blog" className="navbar-item">
                  Blog
               </Link>
+              <a
+                className="navbar-item"
+                style={{paddingTop: ".5em"}}
+                href="https://mailchi.mp/02da2a5b2d98/societyxtech"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                 Subscribe
+              </a>
             </div>
           </div>
         </div>

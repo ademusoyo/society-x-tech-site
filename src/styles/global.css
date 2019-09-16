@@ -8,22 +8,34 @@
 .navbar-item:hover{
     background-color: #6C6E3C !important;
     text-decoration: underline;
-    text-decoration-color: #DB995A
+    text-decoration-color: #DB995A;
+    color: #FFFFFF !important;
+   
 }
 
 .field{
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 57%;
 }
 
 .control{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 60%;
+    text-align: left;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.related-link{
+    font-size: 22px;
+    line-height: 1.75;
 }
 
 #subscribe-button{
     background-color: #DB995A;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .subscribed{
@@ -38,12 +50,21 @@
     background-color: #6C6E3C !important;
 }
 
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
 h3{
     font-family: 'Courier New', Courier, monospace;
 }
 
 h4{
     font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    height: 100%;
+    padding-bottom: 20px;
 }
 
 #tag{
@@ -58,7 +79,11 @@ h4{
 
 a{
     color: #DB995A !important;
-    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+a:hover{
+    color: #4F345A !important;
 }
 
 .navbar-burger{
@@ -68,4 +93,58 @@ a{
 
 .navbar-menu {
     background-color: #6C6E3C !important;
+}
+
+.navbar{
+    overflow-x: hidden;
+}
+
+.content-list{
+   margin-left: 1em;
+}
+
+.articles{
+   margin-bottom: 2em;
+   margin-left: 3em;
+   width: 80%;
+}
+
+.landing-page{
+    background-color: #6C6E3C;
+}
+
+@media only screen and (max-width: 1024px){
+    .landing-page{
+        margin-left: -30%;
+    }
+
+    .related-link{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .field{
+        margin-left: -15%;
+        width: 100%;
+    }
+
+    .clause{
+        padding-bottom: 60%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1025px){
+    .field{
+        margin-left: -37%;
+    }
+
+    .clause{
+        padding-bottom: 160%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .links-page{
+        margin-left: -25%;
+    }
 }

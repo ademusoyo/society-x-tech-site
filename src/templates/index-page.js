@@ -3,38 +3,46 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import BlogRoll from '../components/BlogRoll'
 import ContactForm from '../components/ContactForm'
 
 export const IndexPageTemplate = () => (
-  <div>
-    <div
-      className="full-width-image margin-top-0"
-      style={{
-        backgroundImage: `url('/img/hero.png')`,
-      }}
-    >
+  <div className="landing-page"> 
+    <div>
       <div
         style={{
           display: 'flex',
-          height: '150px',
           lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
+          justifyContent: 'space-around', 
+          alignItems: 'center',
           flexDirection: 'column',
+          paddingTop: "5%",
+          marginLeft: "8em"
         }}
       >
-        <h1
+     <h1
           className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
             fontFamily: 'monospace',
-            textAlign: 'center'
+            textAlign: 'center',
           }}
         >
-          Society x Tech
+         Let's examine the world <br /> together.
+        </h1>
+        <h1
+          className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+          style={{
+            color: '#DB995A',
+            lineHeight: '1',
+            padding: '0.25em',
+            fontFamily: 'monospace',
+            textAlign: 'center',
+            marginBottom: '1em',
+          }}
+        >
+         • • •
         </h1>
         <p
           className="is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
@@ -42,41 +50,22 @@ export const IndexPageTemplate = () => (
             color: 'white',
             lineHeight: '1',
             fontWeight: '300',
-            margin: '0 auto',
-            textAlign: 'center',
-            width: "80%"
+            textAlign: 'left',
+            fontFamily: 'serif',
+            width: "50%"
           }}
         >
-          A monthly newsletter discussing the societal implications of technology trends through a hand-picked curation of articles, podcasts, books and interviews.
+           Society x Tech (pronounced Society [by] Tech) is a monthly newsletter examining the societal implications 
+           of technology trends through a hand-picked curation of articles, podcasts, books and interviews.
+           <br />
+           <br />
+           <br />
+           The goal is to foster new thoughts and insights in hopes to encourage thoughtfulness 
+           when creating new products within technology ecosystem.
         </p>
         <ContactForm />
       </div>
     </div>
-    <section>
-    </section>
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Blog
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
   </div>
 )
 
@@ -87,15 +76,10 @@ IndexPageTemplate.propTypes = {
 }
 
 const IndexPage = ({ data }) => {
-  //const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
       <IndexPageTemplate
-        // image={frontmatter.image}
-        // title={frontmatter.title}
-        // heading={frontmatter.heading}
-        // subheading={frontmatter.subheading}
       />
     </Layout>
   )

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from '../img/society_tech.png'
+import logo from '../img/society_tech2.png'
+import twitter from '../img/social/twitter.svg'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -37,12 +38,12 @@ const Navbar = class extends React.Component {
         className="navbar"
         role="navigation"
         aria-label="main-navigation"
-        style={{backgroundColor: "#6C6E3C"}}
+        style={{backgroundColor: "#6C6E3C", paddingTop: "1em", paddingBottom: "1em"}}
       >
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Society x Tech" style={{ width: '200px' }} />
+              <img src={logo} alt="Society x Tech"  />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -60,26 +61,25 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                style={{paddingTop: ".5em"}}
-                href="https://us19.campaign-archive.com/home/?u=96494ecbd121cdd5e878df186&id=bf7153de98"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                 Archives
-              </a>
               <Link to="/blog" className="navbar-item">
-                 Blog
+                 Interviews
+              </Link>
+              <Link to="/related" className="navbar-item">
+                 Articles
               </Link>
               <a
                 className="navbar-item"
                 style={{paddingTop: ".5em"}}
-                href="https://mailchi.mp/02da2a5b2d98/societyxtech"
+                href="https://twitter.com/societyxtech"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                 Subscribe
+              <img
+                    className="fas fa-lg"
+                    src={twitter}
+                    alt="Twitter"
+                    style={{ width: '1em', height: '1em', color: 'white' }}
+                  />
               </a>
             </div>
           </div>

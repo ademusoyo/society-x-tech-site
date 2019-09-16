@@ -1,3 +1,3 @@
 # Gatsby + Netlify CMS 
 
-Society x Tech Blog Site
+Society x Tech Official Site

@@ -10,81 +10,12 @@ import vimeo from '../img/social/vimeo.svg'
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="footer  has-text-white-ter">
-        <div className="content has-text-centered">
-          <img
-            src={logo}
-            alt="Society x Tech"
-            style={{ width: '20em'}}
-          />
-        </div>
-        <div className="content has-text-centered  has-text-white-ter">
+      <footer className="footer" style={{marginTop: "20%"}}>
+        <div className="content has-text-centered ">
           <div className="container  has-text-white-ter">
-            <div className="columns">
-              <div className="column is-4">
-                <section className="menu">
-                  <ul className="menu-list">
-                    <li>
-                      <Link to="/" className="navbar-item">
-                        Home
-                      </Link>
-                    </li>
-                    <li>
-                      <a href="https://us19.campaign-archive.com/home/?u=96494ecbd121cdd5e878df186&id=bf7153de98" 
-                      className="navbar-item" target="_blank">
-                            Archives
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="navbar-item"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Admin
-                      </a>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-4">
-                <section>
-                  <ul className="menu-list">
-                    <li>
-                      <Link className="navbar-item" to="/blog">
-                        Blog
-                      </Link>
-                    </li>
-                    <li>
-                    <a
-                      className="navbar-item"
-                      style={{paddingTop: ".5em"}}
-                      href="https://mailchi.mp/02da2a5b2d98/societyxtech"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >
-                      Subscribe
-                    </a>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-4 social">
-                <a title="twitter" href="https://twitter.com/societyxtech">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-              </div>
-            </div>
-            <div style={{paddingBottom: "10px", fontFamily: 'monospace'}}>
+            <div style={{paddingBottom: "3em", fontFamily: 'monospace'}}>
                   © 2019  Society x Tech <em>All Rights Reserved</em> •
                   Designed and Developed by <em><a href="http://www.ademusoyo.design/" target ="_blank">Ademusoyo Awosika-Olumo </a></em> 
-                  <br /> Stock Photo from #WOC In Tech Chat
               </div>
           </div>
         </div>

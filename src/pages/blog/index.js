@@ -21,7 +21,7 @@ export default class BlogIndexPage extends React.Component {
               fontFamily: 'monospace',
             }}
           >
-            Blog
+            Interviews
             
           </h1>
         </div>

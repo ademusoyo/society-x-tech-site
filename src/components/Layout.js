@@ -46,8 +46,7 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:image" content="/img/og-image.jpg" />
       </Helmet>
       <Navbar />
-      <div>{children}</div>
-      <Footer />
+      <div style={{overflowY: "hidden", height: "200%"}}>{children}</div>
     </div>
   )
 }

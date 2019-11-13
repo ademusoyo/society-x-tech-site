@@ -10,6 +10,10 @@ tags:
 ---
 [_M. Kunetsov_](https://www.linkedin.com/in/mariakuz/)_. M is the author of a weekly newsletter,_ [_The FinkedIn Dispatch_](https://mariakuz.github.io/finkedin/)_, which discusses current topics in tech, design, innovation, and the future of society. Outside of the Fink, you can find them riding bikes or cooking up experiments in the kitchen. I asked them their thoughts surrounding their internet identity and what they do to protect it. Read on to hear more._
 
+__
+
+![M. Kuznetsov](/img/image-1-.png)
+
 ### How much do you know about your internet identity? Do you do anything specifically to curate it?
 
 I don’t think you can be a creator without being a curator. I curate what I create, but my online identity definitely goes beyond that. There’s what you share as content, and there’s what you share outside of that, unintentionally or intentionally such as your brand, and your data. Some people are very intentional with their brand and put in work to maintain it, but I’m a little bit more laidback.
@@ -30,15 +34,13 @@ Definitely! There’s like a million reasons to hate being online.At least once 
 
 Here is a quick list of my tips:
 
-*  Password manager
+* Password manager
 * Turning off location & reducing real-time posting
 * Censoring photos of keys or addresses 
 * Thinking critically about app permissions. (For example, Did you know Instagram won't let you post without giving them microphone access).
 * Scrub your social media if you want, or learn about how websites serve you ads and follow you across the internet. Stuff like “data brokers” or “ad preferences”.
 * De-Google or De-Facebook, too. Communicate via secure platforms  like Telegram.
-*  Using the same username across platforms might be something to check out.
+* Using the same username across platforms might be something to check out.
 * Two factor authentication.
-
-
 
 Thank you M. for allowing me to feature you. If you want to check out their newsletter and stay up to date on what they're working on, [check it out.](https://mariakuz.github.io/finkedin/) If you're interested in being featured, fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLScLkKF6cnloKU8q8fElsCOww6Xna-pLZn_xJwV74EeQM-Rq4g/viewform).

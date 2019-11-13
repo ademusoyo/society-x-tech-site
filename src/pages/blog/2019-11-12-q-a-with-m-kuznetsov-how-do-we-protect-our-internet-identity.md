@@ -4,15 +4,13 @@ title: 'Q & A With M. Kuznetsov: How do we Protect our Internet Identity?'
 date: 2019-11-13T03:15:57.437Z
 description: An interview with M Kuznetsov discussing all things internet identity.
 featuredpost: false
-featuredimage: /img/image-1-.png
+featuredimage: /img/m.png
 tags:
   - data internet identity security
 ---
 [_M. Kunetsov_](https://www.linkedin.com/in/mariakuz/)_. M is the author of a weekly newsletter,_ [_The FinkedIn Dispatch_](https://mariakuz.github.io/finkedin/)_, which discusses current topics in tech, design, innovation, and the future of society. Outside of the Fink, you can find them riding bikes or cooking up experiments in the kitchen. I asked them their thoughts surrounding their internet identity and what they do to protect it. Read on to hear more._
 
-
-
-![M. Kuznetsov](/img/image-1-.png)
+![M. Kuznetsov](/img/m2.png)
 
 ### How much do you know about your internet identity? Do you do anything specifically to curate it?
 

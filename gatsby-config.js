@@ -2,12 +2,24 @@ var proxy = require('http-proxy-middleware')
 
 module.exports = {
   siteMetadata: {
-    title: 'Society x Tech',
-    description:
-      'The official site for the Society x Tech newsletter',
+    title: `Society x Tech Site`,
+    description: `A monthly newsletter discussing the social implications of technology trends`,
+    author: `Ademusoyo Awosika-Olumo`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Poppins`,
+            variants: [`300`, `400`, `600`, `700`],
+          },
+        ],
+      },
+    },
     'gatsby-plugin-sass',
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support

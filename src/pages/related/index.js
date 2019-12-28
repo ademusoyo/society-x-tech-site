@@ -1,12 +1,14 @@
 import React from 'react'
 
-import Layout from '../../components/Layout'
+import Layout from "../../components/common/layout/layout";
+import SEO from "../../components/common/layout/seo";
 
 export default class RelatedIndexPage extends React.Component {
   render() {
     return (
       <Layout>
         <div> 
+        <SEO title={`Related Links`} />
             <div className="links-page">
             <div
                 style={{

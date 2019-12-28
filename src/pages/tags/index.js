@@ -1,8 +1,8 @@
 import React from 'react'
 import { kebabCase } from 'lodash'
-import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
-import Layout from '../../components/Layout'
+import Layout from "../../components/common/layout/layout";
+import SEO from "../../components/common/layout/seo";
 
 const TagsPage = ({
   data: {
@@ -13,8 +13,8 @@ const TagsPage = ({
   },
 }) => (
   <Layout>
+     <SEO title={`Tags`} />
     <section className="section">
-      <Helmet title={`Tags | ${title}`} />
       <div className="container content">
         <div className="columns">
           <div

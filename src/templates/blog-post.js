@@ -1,10 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/common/layout/layout'
 import Content, { HTMLContent } from '../components/Content'
+import HomeNav from "../components/navbar/home"
+import styled from "styled-components"
+import { Section, Container } from "../components/global"
 
 export const BlogPostTemplate = ({
   content,
@@ -16,31 +18,24 @@ export const BlogPostTemplate = ({
   const PostContent = contentComponent || Content
 
   return (
-    <section className="section">
+    <Section className="section">
       {helmet || ''}
-      <div className="container content">
+      <HomeNav />
+      <StyledContainer>
+   
         <div className="columns">
-          <div className="column is-10 is-offset-1">
             <h1 id="title" className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
             <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link id="tag" to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-          </div>
         </div>
-      </div>
-    </section>
+      </StyledContainer>
+      <Text>
+      <StyledLink to="/blog">
+        Back to Blog
+      </StyledLink>
+      </Text>
+    </Section>
   )
 }
 
@@ -81,6 +76,31 @@ BlogPost.propTypes = {
     markdownRemark: PropTypes.object,
   }),
 }
+
+const StyledContainer = styled(Container)`
+  /* transform: skewY(5deg);
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #fefefe 0%, #fbfbfb 100%); */
+   border: 2px solid ${props => props.theme.color.accent};
+`
+
+const StyledLink = styled(Link)`
+  color: ${props => props.theme.color.secondary};
+  text-decoration: none;
+  &:hover {
+    border-bottom: 1px solid ${props => props.theme.color.accent};
+  }
+  text-align: right;
+`
+
+const Text = styled.p`
+    text-align: right;
+    font-size: 20px;
+    margin-right: 5em;
+    color: ${props => props.theme.color.black.regular}
+`
+
+
 
 export default BlogPost
 

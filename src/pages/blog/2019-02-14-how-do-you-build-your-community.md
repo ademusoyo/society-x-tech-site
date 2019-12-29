@@ -3,10 +3,10 @@ templateKey: blog-post
 title: Q & A with Marie - How do you build your community?
 date: 2019-02-14T15:04:10.000Z
 featuredpost: false
-featuredimage: /img/marie.jpg
+featuredimage: /img/Marie.png
 description:
 tags:
-  - online communities
+  - Online Communities
   - women in tech
  
 ---

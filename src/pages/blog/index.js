@@ -1,40 +1,29 @@
 import React from 'react'
 
 import Layout from "../../components/common/layout/layout";
+import HomeNav from "../../components/navbar/home"
 import SEO from "../../components/common/layout/seo";
-import BlogRoll from '../../components/BlogRoll'
+import BlogRoll from '../../components/blogRoll/BlogRoll'
+import styled from "styled-components"
+import Contact from "../../components/sections/contact/contact"
+
+import { Container } from "../../components/global";
 
 export default class BlogIndexPage extends React.Component {
   render() {
     return (
       <Layout>
         <SEO title="Blog" />
-        <div
-          className="full-width-image-container margin-top-0"
-          style={{
-            backgroundImage: `url('/img/blog-hero.png')`,
-          }}
-        >
-          <h1
-            className="is-size-1"
-            style={{
-              color: 'white',
-              padding: '1rem',
-              fontFamily: 'monospace',
-            }}
-          >
-            Interviews
-            
-          </h1>
-        </div>
-        <section className="section">
-          <div className="container">
-            <div className="content">
-              <BlogRoll />
-            </div>
-          </div>
-        </section>
+        <HomeNav />
+        <StyledContainer>
+          <BlogRoll />
+          <Contact />
+        </StyledContainer>
       </Layout>
     )
   }
 }
+
+const StyledContainer = styled(Container)`
+  margin: 10em 5em;
+`

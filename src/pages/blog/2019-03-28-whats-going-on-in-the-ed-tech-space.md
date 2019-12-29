@@ -3,11 +3,11 @@ templateKey: blog-post
 title: Q&A with Ayoola John-Muyiwa -- What’s going on in the Ed-Tech Space?
 date: 2019-03-28T15:04:10.000Z
 featuredpost: false
-featuredimage: /img/john.JPG
+featuredimage: /img/Ayoola.png
 description:
 tags:
+  - Ed Tech
   - education
-  - ed tech
   - online learning
 ---
 

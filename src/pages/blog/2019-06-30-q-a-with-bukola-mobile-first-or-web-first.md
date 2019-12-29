@@ -6,8 +6,9 @@ description: >-
   An interview with Bukola Akinfaderin discussing her thoughts on whether you
   should build a mobile application or a web application first.
 featuredpost: false
-featuredimage: /img/bukola.jpg
+featuredimage: /img/Bukola.png
 tags:
+  - Mobile Apps
   - web mobile application code develop
 ---
 

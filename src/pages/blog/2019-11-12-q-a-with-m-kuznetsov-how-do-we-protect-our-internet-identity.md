@@ -6,7 +6,8 @@ description: An interview with M Kuznetsov discussing all things internet identi
 featuredpost: false
 featuredimage: /img/m.png
 tags:
-  - data internet identity security
+  - Internet Identity 
+  - Security
 ---
 [_M. Kunetsov_](https://www.linkedin.com/in/mariakuz/)_. M is the author of a weekly newsletter,_ [_The FinkedIn Dispatch_](https://mariakuz.github.io/finkedin/)_, which discusses current topics in tech, design, innovation, and the future of society. Outside of the Fink, you can find them riding bikes or cooking up experiments in the kitchen. I asked them their thoughts surrounding their internet identity and what they do to protect it. Read on to hear more._
 

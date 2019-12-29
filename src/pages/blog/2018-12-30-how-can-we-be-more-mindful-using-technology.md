@@ -3,12 +3,12 @@ templateKey: blog-post
 title: Q & A With Anne-Laure Le Cunff - How can we be more mindful using technology?
 date: 2018-12-30T15:04:10.000Z
 featuredpost: false
-featuredimage: /img/anne-laure-headshot.png
+featuredimage: /img/AnneLaure.png
 description:
 tags:
+  - Mindfulness
   - society
   - technology
-  - mindfulness
   - design
   - chrome extention
 ---

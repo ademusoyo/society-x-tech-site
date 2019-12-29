@@ -2,6 +2,8 @@ import styled from "styled-components"
 
 import { Container } from "../global"
 
+import { Link } from 'gatsby'
+
 export const Nav = styled.nav`
   padding: ${props => (props.scrolled ? `16px 0` : `24px 0`)};
   position: fixed;
@@ -118,4 +120,11 @@ export const Mobile = styled.div`
       display: none;
     }
   `}
+`
+
+export const StyledLink = styled(Link)`
+    text-decoration: none;
+    &.active {
+      color: ${props => props.theme.color.secondary};
+    }
 `

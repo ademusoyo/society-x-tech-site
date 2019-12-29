@@ -9,6 +9,9 @@ export const BlogGrid = styled.div`
     grid-template-columns: 1fr;
     padding: 0 64px;
   }
+  @media (max-width: ${props => props.theme.screen.md}) {
+    grid-template-columns: 1fr 1fr;
+  }
 `
 
 export const Tag = styled.p`

@@ -7,6 +7,8 @@ import Content, { HTMLContent } from '../components/Content'
 import HomeNav from "../components/navbar/home"
 import styled from "styled-components"
 import { Section, Container } from "../components/global"
+import Contact from "../components/sections/contact/contact"
+import Footer from "../components/sections/footer"
 
 export const BlogPostTemplate = ({
   content,
@@ -30,11 +32,9 @@ export const BlogPostTemplate = ({
             <PostContent content={content} />
         </div>
       </StyledContainer>
-      <Text>
-      <StyledLink to="/blog">
-        Back to Blog
-      </StyledLink>
-      </Text>
+      <Contact />
+      <Footer />
+
     </Section>
   )
 }
@@ -82,22 +82,6 @@ const StyledContainer = styled(Container)`
   border-radius: 4px;
   background-image: linear-gradient(to top, #fefefe 0%, #fbfbfb 100%); */
    border: 2px solid ${props => props.theme.color.accent};
-`
-
-const StyledLink = styled(Link)`
-  color: ${props => props.theme.color.secondary};
-  text-decoration: none;
-  &:hover {
-    border-bottom: 1px solid ${props => props.theme.color.accent};
-  }
-  text-align: right;
-`
-
-const Text = styled.p`
-    text-align: right;
-    font-size: 20px;
-    margin-right: 5em;
-    color: ${props => props.theme.color.black.regular}
 `
 
 

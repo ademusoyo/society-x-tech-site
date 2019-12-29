@@ -6,6 +6,7 @@ import NavBar from "../components/navbar/Navbar"
 import Header from "../components/sections/header/header"
 import Author from "../components/sections/author"
 import Blog from "../components/sections/blog"
+import Contact from "../components/sections/contact/contact"
 import Footer from "../components/sections/footer"
 
 const IndexPage = () => (
@@ -15,6 +16,7 @@ const IndexPage = () => (
     <Header />
     <Author />
     <Blog />
+    <Contact />
     <Footer />
   </Layout>
 )

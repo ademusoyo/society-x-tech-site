@@ -3,19 +3,19 @@ import styled from "styled-components"
 import Img from "gatsby-image"
 import { graphql, useStaticQuery, Link } from "gatsby"
 import BlogRollShort from "../blogRoll/BlogRollShort";
-
 import { Section, Container } from "../global"
 
 const Blog = () => {
   return (
     <Section id="blog">
         <StyledContainer>
-          <Subtitle>Blog</Subtitle>
+          <Subtitle>Recent Posts</Subtitle>
           <BlogRollShort />
           <div style={{textAlign: "right", marginTop: "3em", fontSize: "16px"}}>
           <StyledLink to="/blog">View More Blog Posts</StyledLink>
           </div>
-        </StyledContainer>      
+        </StyledContainer> 
+  
     </Section>
     )
 }

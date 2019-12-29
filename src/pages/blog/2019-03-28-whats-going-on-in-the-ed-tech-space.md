@@ -17,12 +17,12 @@ tags:
 
 *Read more about Blademy and his thoughts on the Ed Tech space.*
 
-### What is Blademy?
+##### What is Blademy?
 
 Blademy is an online community where Black millennials come to learn new skills, land better jobs, and build the lives they deserve. Currently we have a thriving community of over 20,000 millennials of color and are partnering with companies, foundations, municipalities, startups, and universities to develop curriculums and programs that prepare our diverse talent pool for in-demand careers in tech, design, finance, and entrepreneurship.
 
 
-### How did you come up with the idea? What made you decide to work on building the platform? How has it been growing?
+##### How did you come up with the idea? What made you decide to work on building the platform? How has it been growing?
 In March of 2018, I stumbled upon an interesting statistic — the median wealth of an African American household in America is $11,000 and projected to hit 0 by 2053. This statistic was surprising to me because my intuition would have suggested a number significantly higher than that considering the demographic’s annual spending power of $1.2 trillion.
 
 I proceeded to analyze more published data about the demographic to find a solution to the alarming trend in wealth disparity. As it turned out, African American millennials are 25% more likely than all millennials to try new technology products. The same demographic also spends 9% more time per week on social networking sites and 13 more hours per week consuming video content than total millennials.
@@ -34,7 +34,7 @@ From my study, I concluded that while Black Millennials are essentially digital 
 Today, we reach over 400,000 millennials monthly with our instructional content and the community is growing at a rate of 50% month-over-month. Blademy was also recently accepted into the Google Cloud for Startups Program, and we are working on partnerships with some of the largest companies out there.
 
 
-### What have you seen the outcome of those who take your courses?
+##### What have you seen the outcome of those who take your courses?
 
 The outcomes have been amazing! I recently had a conversation with a student on the Blademy platform who completed our Machine Learning course, and we discussed a new idea he is working on.
 
@@ -43,13 +43,13 @@ Inspired by the course material, he came up with a plan to use AI to identify ro
 Many other students have also gone on to join top technology companies or start their ventures to solve problems around them.
 
 
-### Online learning has been really big especially within Tech. Do you think that online learning can replace traditional education? Why or why not?
+##### Online learning has been really big especially within Tech. Do you think that online learning can replace traditional education? Why or why not?
 
 I think online learning will eventually replace traditional education. We live in a society where everything is on demand. Today people expect their taxis to arrive at their door in 5 minutes, their packages to arrive in 2 days, and their movies instantly from the comfort of their couch. If we’re indeed heading towards a future where everything comes to us, isn’t it backward that we still have to go to school?
 
 Moreover, we need to challenge the concept of an ideal 4-year education. What if I want to binge my education like I binge watch my Netflix shows? Can I get my degree in 2 years instead? What about six months? In the future, this will all be possible!
 
-### What do you hope for people who take your courses?
+##### What do you hope for people who take your courses?
 
 My ultimate goal for people who take courses on Blademy is that they become empowered to take charge of their own lives and create opportunities for themselves and the community around them.
 

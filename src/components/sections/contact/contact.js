@@ -35,7 +35,7 @@ class Contact extends Component {
     return (
         <Container style={{width: "70%", marginTop: "5em"}}>
               <ContactForm onSubmit={this.handleSubmit}>
-                <ContactInput  onChange={this.handleChange} placeholder="Enter Your Email and Subscribe Now" />
+                <ContactInput  onChange={this.handleChange} placeholder="Enter Your Email" />
                 <ContactButton>Subscribe</ContactButton>
               </ContactForm>
               {

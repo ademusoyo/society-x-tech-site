@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import { Container } from "../global"
 
@@ -95,7 +96,7 @@ const Copyright = styled.div`
   }
 `;
 
-const StyledLink = styled.a`
+const StyledLink = styled(OutboundLink)`
   color: ${props => props.theme.color.accent};
   padding-bottom: 1px;
   text-decoration: none;

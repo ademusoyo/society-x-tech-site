@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import Img from "gatsby-image"
 import { graphql, useStaticQuery } from "gatsby"
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import { Section, Container } from "../global"
 
@@ -104,7 +105,7 @@ const StyledImage = styled(Img)`
   }
 `
 
-const StyledLink = styled.a`
+const StyledLink = styled(OutboundLink)`
   color: ${props => props.theme.color.accent};
   padding-bottom: 1px;
   text-decoration: none;

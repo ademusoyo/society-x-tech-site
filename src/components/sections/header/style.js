@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 export const HeaderWrapper = styled.header`
   background-color: #6C6E3C;
@@ -68,7 +69,7 @@ export const FormSubtitle = styled.span`
   color: ${props => props.theme.color.black.regular}
 `
 
-export const FormSubtitleLink = styled.a`
+export const FormSubtitleLink = styled(OutboundLink)`
   color: ${props => props.theme.color.accent};
   padding-bottom: 1px;
   margin-left: 8px;

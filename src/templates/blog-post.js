@@ -81,7 +81,7 @@ const StyledContainer = styled(Container)`
   /* transform: skewY(5deg);
   border-radius: 4px;
   background-image: linear-gradient(to top, #fefefe 0%, #fbfbfb 100%); */
-   border: 2px solid ${props => props.theme.color.accent};
+  padding: 120px;
 `
 
 

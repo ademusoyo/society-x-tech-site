@@ -16,7 +16,7 @@ tags:
 *Dianna Allen is a graphic designer, mostly within the product label and packaging niche. She is originally from St. Louis, Missouri but works remotely and has been traveling since 2017 and is currently in eastern Europe. Her favorite past time is hanging out on her balcony in the sun and enjoying music. She is the creator of [Remetea](https://remetea.carrd.co/) an application that helps you pick your favorite drink based on your mood. Her product won the [Product Hunt Makers Festival](https://blog.producthunt.com/120-products-built-with-no-code-4870bed23501) in the Wellness Category. I asked her her thoughts on creating a no code product. Read on to find out her thoughts.*
 
 
-##### What is Remetea? What inspired you to create the product?
+#### What is Remetea? What inspired you to create the product?
 
 Remetea is a simple pocket app that helps you find the perfect tea to drink, based on how you’re feeling.
 

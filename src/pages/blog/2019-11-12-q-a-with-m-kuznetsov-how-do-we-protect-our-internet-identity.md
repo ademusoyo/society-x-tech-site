@@ -13,23 +13,23 @@ tags:
 
 ![M. Kuznetsov](/img/m2.png)
 
-##### How much do you know about your internet identity? Do you do anything specifically to curate it?
+#### How much do you know about your internet identity? Do you do anything specifically to curate it?
 
 I don’t think you can be a creator without being a curator. I curate what I create, but my online identity definitely goes beyond that. There’s what you share as content, and there’s what you share outside of that, unintentionally or intentionally such as your brand, and your data. Some people are very intentional with their brand and put in work to maintain it, but I’m a little bit more laidback.
 
 When I post online under my personal accounts, I try to think of how people see me, and what kind of person I want to be. The things you leave out can be just as telling as the things you keep. For example, do your friends avoid talking about politics on their social media? Is that coming from the privilege of being able to separate yourself from the news in ignorance, or because you’re overwhelmed?
 
-##### It seems like almost every application allows you to create an account with some third party tool, what do you think about that?
+#### It seems like almost every application allows you to create an account with some third party tool, what do you think about that?
 
 Having so many separate accounts is useful because it keeps information separated on a need-to-know basis, but having so many accounts offers opportunities for forgotten or repeat passwords. Using a third party account like Twitter does mean only one password, but I’m reminded of how that Wired reporter got his identity stolen because someone got into his Twitter and was able to scoop a bunch of linked accounts.
 
 Data seemed to fall into the public concern around the passing of GDPR in the EU. Suddenly, every designer had to know about it, and it was the first time I stepped back and started thinking about the system as a whole, instead of disconnected apps. The[ Cloud Fall ](https://thecloudfall.com/)essay on the topic encouraged me to think about exploring the space. What if you could put your data in once and it was shared as needed? It’s reminiscent of electronic health records (EHR), but those aren’t the ideal we expected them to be, either. At the end of the day, there’s still human error.
 
-##### When you think about your online presence, does any part of it scare you?
+#### When you think about your online presence, does any part of it scare you?
 
 Definitely! There’s like a million reasons to hate being online.At least once a month I think of tearing down everything. That being said, where will all of this be in five years? Will there be a data meltdown?  If everyone else is online and all facing the same risks, it seems okay, but being singled out and having your actions (even innocuous ones) suddenly cast into the spotlight is kind of a worst-case scenario.
 
-##### What is your advice for people who are starting to be more cautious about their online identity?
+#### What is your advice for people who are starting to be more cautious about their online identity?
 
 Here is a quick list of my tips:
 

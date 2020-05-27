@@ -30,34 +30,24 @@ The ultimate goal is to be able to think something and have it done; well, we’
 
 Sentien Audio is designed to seamlessly connect the online and offline worlds so you can interact with technology naturally and efficiently, providing instant access to the functions of a smartphone with a single touch or a word. It challenges the current paradigm we’ve grown used to: interacting with tech through a screen.
 
-
-
 #### How do you ensure privacy for your customers?
 
 The user is 100% in control of Sentien Audio via the Sentien App. That’s where you can configure touch gestures as well as set which notifications you want to hear. Sentien Audio acts only as an interface. There’s also optional on-device, offline keyword recognition so the user can invoke an action with just their voice.
-
-
 
 #### Were there any challenges when it came to ensuring a private and secure experience?
 
 Security and privacy are at the root of Sentien Audio, and all future Sentien products. One of Sentien's co-founders previously worked in the security industry, so the challenges and solutions were familiar to us from the start.
 
-
-
 #### How do you compete with your tech giant competitors?
 
 As a small startup, we have the flexibility to challenge the status quo and test more daring concepts. We’re able to focus on the founding principles behind the reasons people use technology, which gives us an edge over established players since our products will meet people’s needs and wants better. Plus, we can learn from established players and utilize the things that we know work. However, it's a challenge to find the right crowd for your product/brand since, unlike the big tech companies, we're not well known (yet).
-
-
 
 #### How do you go about marketing your product?
 
 So far we’ve focused on organic reach for finding our initial community. We’ve used different channels and forums for this through which we’ve been able to develop our message and positioning from a human-computer interaction project to the first all-day wearable audio headset that leaves your ears open. Currently, we‘re in the process of planning a bigger marketing push connected to getting closer to shipping, which will be happening approximately by the end of the summer.
 
-
-
 #### Do you have any advice for founders trying to provide a secure experience?
 
 Common issue we see among security startups and people from a security background is the belief that the "security" badge will sell the product. Security is just a tool, an assumption. Although it depends  on your target market, but generally speaking people opt for ease of use in return for less secure or private experience. The product has to be at least the same quality (and ideally better quality) than its alternatives.
 
-_Thank you Katarina and Imrich for letting me feature you. If you’re working on something and would like to be featured in a future edition of Society x Tech fill out this form here._
+_Thank you Katarina and Imrich for letting me feature you. If you’re working on something and would like to be featured in a future edition of Society x Tech fill out this form_ [_here_](https://us19.list-manage.com/survey?u=96494ecbd121cdd5e878df186&id=86345cbde6)_._

@@ -74,4 +74,4 @@ There needs to be an easier way for companies to hire outside of their current s
 
 We will see a rise in an employee being able to work from anywhere in the country or the world, and I foresee a huge spike in the gig and contractor economy.
 
-Thank you Naya for sharing your experience and offering her insight. If you want to support her work, you can support her on [patreon](https://www.patreon.com/frauvis/posts). If you would like to be featured you can fill out this form [here](https://us19.list-manage.com/survey?u=96494ecbd121cdd5e878df186&id=86345cbde6).
+_Thank you Naya for sharing your experience and offering her insight. If you want to support her work, you can support her on_ [_patreon_](https://www.patreon.com/frauvis/posts)_. If you would like to be featured you can fill out this form_ [_here_](https://us19.list-manage.com/survey?u=96494ecbd121cdd5e878df186&id=86345cbde6)_._

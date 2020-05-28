@@ -14,7 +14,7 @@ tags:
 ---
 [Naya Moss](https://nayamoss.com/) is a Create Technologist, IT Professional and World Traveler. She is currently working as a freelancer while also running several companies such as [Frauvis](https://frauvis.com/) a community for Black Women in Tech and [Culturefiy](https://www.culturefiy.tech/) an HR tech company in Romania. I asked her her thoughts on remote work and the future of remote work. Keep reading.
 
-![Naya Moss](/img/naya-moss.jpg)
+![Naya Moss](/img/naya-poland.jpg)
 
 #### How long have you been working remotely full time? What sparked this decision?
 

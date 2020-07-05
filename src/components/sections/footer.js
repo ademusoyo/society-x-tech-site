@@ -11,7 +11,8 @@ const Footer = () => (
       <span>Social</span>
       <ul>
         <li><StyledLink href="https://twitter.com/societyxtech" target="_blank" rel="noreferrer noopener">Twitter</StyledLink></li>
-        <li><StyledLink href="https://instagran.com/societyxtech" target="_blank" rel="noreferrer noopener">Instagram</StyledLink></li>
+        <li><StyledLink href="https://instagram.com/societyxtech" target="_blank" rel="noreferrer noopener">Instagram</StyledLink></li>
+        <li><StyledLink href="https://www.buymeacoffee.com/ademusoyo" target="_blank" rel="noreferrer noopener">Buy Me Coffee</StyledLink></li>
       </ul>
     </FooterColumn>
     <FooterColumn>

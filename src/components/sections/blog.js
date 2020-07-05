@@ -10,7 +10,7 @@ const Blog = () => {
         <StyledContainer>
           <Subtitle>Recent Posts</Subtitle>
           <BlogRollShort />
-          <div style={{textAlign: "right", marginTop: "3em", fontSize: "16px"}}>
+          <div style={{textAlign: "center", marginTop: "3em", fontSize: "16px"}}>
           <StyledLink href="/blog">View More Blog Posts</StyledLink>
           </div>
         </StyledContainer> 

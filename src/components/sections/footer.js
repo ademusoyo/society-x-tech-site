@@ -57,8 +57,9 @@ const FooterColumnContainer = styled(Container)`
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 32px;
   justify-content: start;
+  margin: 0 10rem;
   @media (max-width: ${props => props.theme.screen.sm}) {
-    grid-template-columns: 1fr;
+    margin: 0;
     grid-gap: 32px;
   }
 `

@@ -26,7 +26,7 @@ export const BlogPostTemplate = ({
       <StyledContainer>
    
         <div className="columns">
-            <h1 id="title" className="title is-size-2 has-text-weight-bold is-bold-light">
+            <h1 id="title">
               {title}
             </h1>
             <PostContent content={content} />
@@ -78,10 +78,14 @@ BlogPost.propTypes = {
 }
 
 const StyledContainer = styled(Container)`
-  /* transform: skewY(5deg);
-  border-radius: 4px;
-  background-image: linear-gradient(to top, #fefefe 0%, #fbfbfb 100%); */
   padding: 120px;
+
+  a {
+    color: ${props => props.theme.color.accent};
+  }
+  @media (max-width: ${props => props.theme.screen.sm}) {
+    padding: 2rem;
+  }
 `
 
 

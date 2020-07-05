@@ -42,10 +42,12 @@ export const NavListWrapper = styled.div`
   }
 `
 
+ // font-family: ${props => props.theme.font.medium};
+
 export const NavItem = styled.li`
   margin: 0 0.75em;
-  font-family: ${props => props.theme.font.medium};
-  ${props => props.theme.font_size.xsmall};
+  font-family: ${props => props.theme.font.main};
+  font-size: 22px;
 
   a {
     text-decoration: none;
@@ -68,7 +70,8 @@ export const MobileMenu = styled.div`
 `
 
 export const Brand = styled.div`
-  font-family: ${props => props.theme.font.extrabold};
+  font-family: ${props => props.theme.font.main};
+  font-weight: 600;
   ${props => props.theme.font_size.regular};
   color: ${props => props.theme.color.silver};
   text-decoration: none;
@@ -82,6 +85,7 @@ export const Brand = styled.div`
     a {
       color: ${props => props.theme.color.secondary};
       text-decoration: none;
+      font-size: 36px;
     }
   }
 `

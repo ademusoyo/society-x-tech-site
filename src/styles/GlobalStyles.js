@@ -14,33 +14,38 @@ const GlobalStyles = createGlobalStyle`
   }
   
   body {
-    font-family: ${props => props.theme.font.primary};
+    font-family: ${props => props.theme.font.main};
   }
+
 
   
   h1 {
     ${props => props.theme.font_size.xlarge};
-    font-family: ${props => props.theme.font.bold};
+    font-family: ${props => props.theme.font.main};
+    font-weight: 500;
     
   }
 
   h2 {
     ${props => props.theme.font_size.larger};
+    font-weight: 400;
+
   }
 
   h3 {
     ${props => props.theme.font_size.larger};
-    font-family: ${props => props.theme.font.bold};
+    font-family: ${props => props.theme.font.main};
+    font-weight: 300;
   }
 
   h4 {
     ${props => props.theme.font_size.large};
-    font-family: ${props => props.theme.font.bold};
+    font-family: ${props => props.theme.font.main};
   }
 
   h5 {
     ${props => props.theme.font_size.xsmall};
-    font-family: ${props => props.theme.font.normal};
+    font-family: ${props => props.theme.font.main};
   }
 
   p {

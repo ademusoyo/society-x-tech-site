@@ -2,6 +2,7 @@
 
 const theme = {
     font: {
+      main: 'Poppins',
       primary: `'HK Grotesk Normal'`,
       secondary: `'HK Grotesk Medium'`,
       light: `'HK Grotesk Light'`,

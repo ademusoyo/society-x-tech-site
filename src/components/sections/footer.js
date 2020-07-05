@@ -11,7 +11,7 @@ const Footer = () => (
       <span>Social</span>
       <ul>
         <li><StyledLink href="https://twitter.com/societyxtech" target="_blank" rel="noreferrer noopener">Twitter</StyledLink></li>
-        <li><StyledLink href="https://medium.com/society-x-tech" target="_blank" rel="noreferrer noopener">Medium</StyledLink></li>
+        <li><StyledLink href="https://instagran.com/societyxtech" target="_blank" rel="noreferrer noopener">Instagram</StyledLink></li>
       </ul>
     </FooterColumn>
     <FooterColumn>
@@ -26,7 +26,7 @@ const Footer = () => (
       <span>About</span>
       <ul>
         <li><StyledLink href="https://ademusoyo.com/" target="_blank" rel="noreferrer noopener">Author</StyledLink></li>
-        <li><StyledLink href="https://ademusoyo.design/" target="_blank" rel="noreferrer noopener">Designer</StyledLink></li>
+        <li><StyledLink href="https://www.blog.ademusoyo.com/work" target="_blank" rel="noreferrer noopener">Designer</StyledLink></li>
       </ul>
     </FooterColumn>
 
